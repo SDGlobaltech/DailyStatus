@@ -1,0 +1,28 @@
+2020-06-23 22:43:11.473  INFO 46060 --- [main] c.d.dailyreport.DailyreportApplication   : Starting DailyreportApplication on SDG00020 with PID 46060 (D:\dailyreport\target\classes started by Ramesh in D:\dailyreport)
+2020-06-23 22:43:11.476  INFO 46060 --- [main] c.d.dailyreport.DailyreportApplication   : No active profile set, falling back to default profiles: default
+2020-06-23 22:43:12.121  INFO 46060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-23 22:43:12.161  INFO 46060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 1 JPA repository interfaces.
+2020-06-23 22:43:12.375  INFO 46060 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-23 22:43:12.539  INFO 46060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6156 (http)
+2020-06-23 22:43:12.546  INFO 46060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-23 22:43:12.546  INFO 46060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-23 22:43:12.619  INFO 46060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-23 22:43:12.619  INFO 46060 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1098 ms
+2020-06-23 22:43:12.925  INFO 46060 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 22:43:12.981  INFO 46060 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-06-23 22:43:13.216  INFO 46060 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-23 22:43:13.317  INFO 46060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-23 22:43:14.748  INFO 46060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-23 22:43:14.762  INFO 46060 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-23 22:43:17.610  INFO 46060 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 22:43:17.615  INFO 46060 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 22:43:17.884  WARN 46060 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-23 22:43:18.002  INFO 46060 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 22:43:18.326  INFO 46060 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-23 22:43:18.403  INFO 46060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6156 (http) with context path ''
+2020-06-23 22:43:18.405  INFO 46060 --- [main] c.d.dailyreport.DailyreportApplication   : Started DailyreportApplication in 7.544 seconds (JVM running for 8.511)
+2020-06-23 22:46:32.604  INFO 46060 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-06-23 22:46:32.611  INFO 46060 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-23 22:46:32.613  INFO 46060 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 22:46:32.616  INFO 46060 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-23 22:46:32.633  INFO 46060 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
